@@ -1,43 +1,842 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html class="no-js" lang="en">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="utf-8" />
+  
+  <link rel="import" href="static/offer/img/home/houseBg.jpg" async>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  <meta name="description" content="We provide support to our partners so they can take care of their clients/ patients. " />
+  
+  
+
+<!-- Global Sept-5-23 site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GXDNX2WS9K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GXDNX2WS9K');
+</script>
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato%7CLibre+Baskerville&amp;display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  
+  
+  <link rel="icon" href="static/logo/eqlogo.png" sizes="32x32" />
+  <link rel="icon" href="static/logo/eqlogo.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="static/logo/eqlogo.png" />
+  
+  
+  
+  <!-- <link href="wp-content/themes/FoundationPress/js/jclocks.js" /> -->
+  <title> Equity Group  &#8211; We build houses for Americans </title>
+  
+  
+    <!-- loader start -->
+    <link rel="stylesheet" media="all" href="sites/default/files/css/home/animate.css" />
+  
+    <style>
+        .preloader {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            /* Great working */
+            background-color: #a55c1b;
+            background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+            text-align: center;
+            z-index: 9999999
+        }
+    
+        .preloader .spinner {
+            width: 139px;
+            height: 49px;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto
+        }
+    
+        .loader-logo {
+            float: left
+        }
+    
+        .loader-logo img {
+            width: 139px;
+            height: auto
+        }
+    </style>
+
+    
+  
+  <!-- Fonts new -->
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-Regular.ttf" as="font" type="font/ttf"
+      crossorigin="anonymous" />
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-BoldItalic.ttf" as="font" type="font/ttf"
+      crossorigin="anonymous" />
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="themes/fonts/Nunito/Nunito-italic.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+  <link rel="preload" href="themes/custom/assets/fonts/eq-icons.ttf" as="font" type="font/ttf"
+      crossorigin="anonymous" />
+  <!-- Fonts end -->
+  
+  <style>
+      @font-face {
+          font-family: eqsans;
+          src: url(themes/fonts/Nunito/Nunito-Regular.ttf);
+      }
+  
+      h1,
+      h2,
+      h3,
+      h4,
+      p,
+      div,
+      li,
+      a {
+          font-family: eqsans;
+      }    
+  </style>
+  
+  
+  <link rel='stylesheet' id='wp-block-library-css' href='static-ca/ca-one.css' type='text/css' media='all' />
+  
+  
+  <link rel="stylesheet" href="static-ca/iterations.css" />
+  
+  
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="static/css/new-home.css">
+
+
+    <!-- loader start -->
+    <link rel="stylesheet" media="all" href="sites/default/files/css/home/animate.css" />
+
+    <style>
+      .preloader {
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;      
+    /* Great working */
+          background-color: #a55c1b;
+          background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+          text-align: center;
+          z-index: 9999999
+      }
+    
+      .preloader .spinner {
+          width: 139px;
+          height: 49px;
+          text-align: center;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto
+      }
+    
+      .loader-logo {
+          float: left
+      }
+    
+      .loader-logo img {
+          width: 139px;
+          height: auto
+      }
+    </style>
+    <!-- loader end -->
+    
+  
+
+</head>
+
+<body class="page-template-default page page-id-1128 page-parent topbar">
+  <div style="display: none;" id="root"></div>
+    <header class="header-fixed">
+
+
+        <div class="grid-container">
+        
+        
+            <div class="nav-menu hide-for-large">
+                <div id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        
+        
+            <a href="index.html" rel="home"><img class="logo-header white-logo" src="../../static/logo/l1.webp"></a>
+            <a href="index.html" rel="home"><img class="logo-header black-logo" src="../../static/logo/l1.webp"></a>
+        
+        
+        <!-- loader start -->
+          <div class="preloader">
+            <div class="spinner">
+                <div class="loader-logo"><img  src="../../static/logo/l1.webp">
+                </div>
+            </div>
+        </div>
+        
+        <!-- loader start -->
+        
+        
+            <div class="primary-menu show-for-large">
+                <div class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="menu">
+                        <li id="menu-item-479"
+                            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-479 is-active">
+                            <a href="../about-us/index.html">About Us</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-455"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-455"><a
+                                        href="../values-and-culture/index.html"> Values &#038; Culture </a></li>
+                            </ul>
+                        </li>
+                        
+                        <li id="menu-item-1942"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1942">
+                            <a href="../../join-us/index.html">Join Us</a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-1443"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1443"><a
+                                        href="../../join-us/Project-Manager/index.html">Project-Manager</a></li>
+                                <li id="menu-item-1441"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1441"><a
+                                        href="../../join-us/Construction-Manager/index.html"> Construction Manager </a></li>
+                                <li id="menu-item-1442"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1442"><a
+                                        href="../../join-us/VP-of-Land-Development/index.html"> VP of Land Development </a></li>
+                                <li id="menu-item-1969"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1969"><a
+                                        href="../../join-us/interns/index.html"> Intership </a></li>
+                                <li id="menu-item-1969"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1969"><a
+                                            href="../../join-us/openings/index.html">All Openings</a></li>                                                                        
+                            </ul>
+                        </li>
+                        <li id="menu-item-381"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a
+                                href="../../careers/contact/index.html">Contact</a></li>
+                        
+        
+                          <li id="menu-item-486"
+                                    class="white-ghost-button menu-item menu-item-type-custom menu-item-object-custom menu-item-486">
+                                    <a href="../../free-discovery-call/" > Free Valuation
+                                        </a>
+                                      </li>
+        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class="nav-menu-container hide-for-large-only">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x align-middle text-center">
+                    <div class="cell large-12 navigation-container">
+        
+                        <div class="menu-secondary-menu-container">
+                            <ul id="menu-secondary-menu" class="menu">
+                                <!-- <li id="menu-item-466"
+                                    class="non-link menu-item menu-item-type-custom menu-item-object-custom menu-item-466">
+                                    <a> </a></li> -->
+                                <li id="menu-item-498"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-498"><a
+                                        href="../about-us/index.html"><h2>About</h2>  </a></li>
+                              
+                                <!-- <li id="menu-item-492"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-492"><a
+                                        href="responsibility/index.html"></a>FAQ</li> -->
+                                <li id="menu-item-494"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a
+                                        href="../values-and-culture/index.html"> <h2> Values &#038; Culture </h2></a></li>
+                                <li id="menu-item-1124"
+                                    class="non-link menu-item menu-item-type-custom menu-item-object-custom menu-item-1124">
+                                    <a></a></li>
+                                <li id="menu-item-1045"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1045"><a
+                                        href="../../join-us/openings/index.html"> <h2>Openings</h2></a></li>
+        
+                                
+                                <li id="menu-item-1125"
+                                    class="non-link menu-item menu-item-type-custom menu-item-object-custom menu-item-1125">
+                                    <a></a></li>
+                                <li id="menu-item-1142"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1142"><a
+                                        href="../../join-us/index.html"><h2>Join Us</h2></a></li>
+                                
+                                    <li id="menu-item-499"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-499"><a
+                                        rel="noopener" href="../../investors"> <h2>Investor Center</h2>
+                                        </a></li>
+        
+                                <li id="menu-item-464"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a
+                                        href="../../careers/contact/index.html"><h2>Contact</h2></a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            </header>
+
+
+
+    <div class="p-4 p-md-5 mb-4 text-dark rounded bg-light bg-imgo ">
+        <article class="top-article">
+      <div class="col-md-6 px-0">
+        <!-- We help with practice transition  -->
+        <h1 id="top-form" style="color:white" class="display-4  top-text-h"> We help Americans achieve their dream of homeownership  </h1>
+        <p style="width:85%; color:white" class="lead my-3 d-none d-sm-block top-text"> Many Americans view homeownership as a critical piece of “the American dream.” 
+           <br/> We provide an individualized approach to help each person achieve their goals and live with a sense of calm and peace.</p>
+        
+        <p style="margin-top: 110px;" class="lead mb-0">
+            
+            <a style="text-transform: capitalize; text-decoration: none; line-height: 17px; " href="/free-discovery-call/" class="button h-top-btn"> Free Initial Call </a>
+        </p>
+      </div>
+
+      <div class="col-md-6 ">
+
+        
+      </div>
+    </article>
+    </div>
+
+
+
+
+<section class="container">
+
+
+
+<section class='above-sell-for-more'></section>
+
+
+<div class="container">
+    <div class="row spacer">
+        <div class="col-sm  "> <img style="border-radius:25px;" src="./static/img/home/graph/gp1.png " /> </div>
+        
+        
+        <div class="col-sm ">
+            <article class=" sell-4-more-container">
+                <h2  style="mix-blend-mode: darken; font-size: 36px;"> Build your house for the right price</h2>
+                <p style="font-size: 14px;"> Our firm assists aspiring home owners in every step of the way. <br/> 
+                    We want you to expect more with less money. 
+                    
+                   
+                </p>
+                <a style="text-transform: capitalize; text-decoration: none;" href="/free-discovery-call/" class="button"> Get
+                    Started </a>
+            </article>
+        </div>
+    </div>
+</div>
+
+
+
+<section style="margin-bottom:120px;"></section>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm  order-sm-2"> <img style="border-radius:25px;" src="./static/img/home/drinkingCoffee.jpg" /> </div>
+        <div class="col-sm order-sm-1">
+            <article class="hot-market-container">
+            <h2 style="font-size: 36px;">Hot market  <br /> No fee <br /> All the money in your pocket</h2>
+            <p style="font-size: 14px;"> Save thousands when you work with us. <br />
+                We will help you with all the bells and whistles at no extra cost. </p>
+            </p>
+            <a style="text-decoration: none; text-transform: capitalize;" href="/free-discovery-call/" class="button">Discovery call</a>
+            </article>
+        </div>
+    </div>
+</div>
+
+
+
+
+<section style="margin-top:120px;"></section>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm  "> <img style="border-radius:25px;" src="./static/offer/old-coffee.jpeg" />  </div>
+            
+            
+            <div class="col-sm ">
+                <article class=" sell-4-more-container">
+                    <h2 style="font-size: 36px;">Flexible terms, Give us a call</h2>
+                    <p style="font-size: 14px;"> Each home owner have their own unique requirements,
+                        
+                        <br /> We are happy to help you achieve your goals. </p>
+                    <a style="text-decoration: none; text-transform: capitalize;" href="/free-discovery-call/" class="button">Let's Chat </a>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+
+
+
+
+
+
+         <!-- spacer -->
+         <section style="margin-top:120px;"></section>
+
+
+
+    <!-- <div class="background-image-text-section medium-padding"
+        style="background-image: url('.static/img/home/couples/complete_the_path'); background-position-y: 11%;  color: #ffffff">
+    </div> -->
+
+
+    <div class="background-image-text-section medium-padding"
+    style="background-image: url('./static/img/home/couples/walking-cleaned.jpg'); background-position-y: 11%;  color: #ffffff">
+</div>
+
+
+
+    <section class="container">
+        <div class="row text-center">
+            <h1 style="margin-bottom: 80px; margin-top: 40px;" class="display-1">Only Equity gives you the flexibility</h1>
+            <section>
+                <table  class="table">
+                    <thead>
+                        <tr style="border-style: none; background-color: white;">
+                            <th  class="table-item text-center" scope="col"> </th>
+                            <th class="table-item" scope="col">Equity </th>
+                            <th class="table-item" scope="col"> Others </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-style: none;">
+                            <th class="table-item" scope="row">No long term contract</th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+                        <tr style="border-style: none;">
+                            <th class="table-item" scope="row">Flexible terms</th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+
+                        <tr>
+                            <th class="table-item" scope="row"> No comission/ hidden fee</th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+                        <tr>
+                            <th class="table-item" scope="row">  You can introduce minor changes, it shouldnt change the bill * </th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+                        <!-- <tr>
+                            <th class="table-item" scope="row">  We keep your staff  </th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>                         -->
+
+                        <tr>
+                            <th class="table-item" scope="row"> We will work around your needs/ goals </th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+                        <tr>
+                            <th class="table-item" scope="row"> You will never be asked for any fee for evaluation.
+                            </th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+                        <tr>
+                            <th class="table-item" scope="row">No Pressure to work with us</th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+
+                        <tr>
+                            <th class="table-item" scope="row"> No weird terms in the contract</th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+
+
+                        <tr>
+                            <th class="table-item" scope="row"> We're local </th>
+                            <td> <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#00A506;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Included" role="img" focusable="false">
+                                    <path fill="none" d="m4 16.5 8 8 16-16" /></svg></td>
+                            <td><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+                                    style="display:block;fill:none;height:24px;width:24px;stroke:#E12C32;stroke-width:5.333333333333333;overflow:visible"
+                                    aria-label="Not included" role="img" focusable="false">
+                                    <path d="m6 6 20 20" />
+                                    <path d="m26 6-20 20" /></svg></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+        </div>
+    </section>
+
+
+
+    <section style="margin-top:130px;"></section>
+
+
+
+
+
+
+    <div id="BePartofOURTEAM">
+
+        <div class=" text-left-image-right" >
+
+            <div class=" text-left">
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <section class='container-fluid'> 
+    
+        <article  class="grid-x ">
+
+        <div style="min-height: 72px; border-top-left-radius: 12px; border-bottom-left-radius: 12px;  background-color: #F7F7F7; padding: 80px;";  class="cell small-12 medium-12 large-6 ">
+            <div class="jumbotron">
+                <h1 style="color:black;" class="display-1"> By your side every step of the way </h1>
+            </div>
+        </div>
+
+        <div style="min-height: 72px;" class="cell small-12 medium-12 large-6 content">
+            <div style="border-top-right-radius: 12px; border-bottom-right-radius: 12px; background-image: url('./static/img/home/couples/home-steps-cleaned.jpg'); background-position-x: 95%;  color: #ffffff" class="background-image-text-section medium-padding"
+            >
+            </div>
+        </div>
+
+    </article>
+</section>
+    
+
+
+
+
+<section id="faq" style="margin-top:70px;" class="container">
+    <div class="row">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-4">
+
+                    <div class="">
+                        <div class="grid-x">
+                            <p class="trail"><span class="hr"></span> FAQ </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="cell small-12 medium-6 large-4 content tile-1">
+                        <div class="content-container">
+                            <h1 class="heading-msg" >Your questions, answered</h1>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-5 offset-sm-2 col-md-8 offset-md-0">
+
+                    <article class="accordion accordion-flush" id="accordionFlushExample">
+                        
+                        
+                        <div class="accordion-item">
+                            <h2 style="padding-top:10px; padding-bottom:10px;  font-size: 22px;"
+                                class="accordion-header" id="flush-headingEleven">
+                                <button style="font-size: 22px;" class="accordion-button collapsed  text-left" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
+                                    aria-expanded="false" aria-controls="flush-collapseEleven">
+                                    1) How long does the build process takes ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEleven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                                <div style="font-size: 22px;" class="accordion-body"> Each market is differnet, please give us a call so we can help you with the right information. </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item">
+                            <h2 style="padding-top:10px; padding-bottom:10px;  font-size: 22px;"
+                                class="accordion-header" id="flush-headingEight">
+                                <button style="font-size: 22px; " class="accordion-button collapsed text-left" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                    aria-expanded="false" aria-controls="flush-collapseEight">
+                                    2) Why should I work with your firm ? 
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                <div style="font-size: 22px;" class="accordion-body"> You don't have to. Feel free to shop around & compare the guaranties that we offer with other builders. 
+                                     </div>
+                            </div>
+                        </div>
+
+            
+
+                    </article>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section style="margin-top:100px;"></section>
+
+
+
+<section style="margin-top:60px;"></section>
+
+
+
+    <div class="row NoLRPadding">
+        <div class="col-sm  order-sm-2 NoLRPadding"> 
+            
+            <div class="background-image-text-section medium-padding"
+            style="background-image: url('./static/img/home/couples/front-home-cleaned.jpg'); background-position-x: 95%;  color: #ffffff" >
+            </div> 
+    
+    </div>
+        <div class="col-sm order-sm-1 NoLRPadding">
+            <div style="padding: 80px;" class="cell small-12 medium-12 large-6 ">
+                <div class="jumbotron">
+                    <h1 style="color:white;" class="display-1">Give us a call</h1>
+                
+                    <p style="color:white;">We’ll help you every </br>
+                        step of the way.</p>
+                    <a style="text-transform: capitalize; text-decoration: none;" href="tel:714-606-7884" class="button">Call </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="main-footer" style="background-image: url('../../../static/img/woods/bblue.jpg');">
+            <div class="grid-container white-text">
+                <div class="grid-x grid-margin-x align-middle">
+                    <div class="cell large-4 text-left ">
+                        <a href="index.html"><img class="footer-logo" src="../../../static/logo/l1.webp"></a>
+                    </div>
+                    <div class="cell large-8 text-right ">
+
+                        <div class="menu-footer-menu-container">
+                            <ul id="menu-footer-menu" class="menu">
+                                <li id="menu-item-509"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a
+                                        href="../about-us/index.html">About Us</a></li>
+
+                                <li id="menu-item-507"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507"><a
+                                        href="/careers">Careers</a></li>
+                                <li id="menu-item-505"
+                                    class="white-ghost-button menu-item menu-item-type-custom menu-item-object-custom menu-item-505">
+                                    <a href="../../investors">Investors</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-x grid-margin-x sub-footer">
+                    <div class="cell large-4 medium-12 text-left content-1">
+                        <p>&copy; 2024 Equity Group</p>
+                        <p class="small-text">Equity Group, LLC is a limited liability company registered in Delaware under it's parent company. 
+                        </p>
+                    </div>
+                    <div class="cell large-8 medium-12 text-right content-2">
+                        <p>
+                            <a href="/" style="pointer-events: none;">Terms</a> |
+                            <a href="/" style="pointer-events: none;">Privacy</a>
+                        </p>
+                        <p class="small-text">
+                            Any opinions or views stated on eqhgp.com are subject to change without notice for any reason, and Equity Group reserves the right in its sole discretion, at any time and from time to time, to add, modify, or remove any of the information without any notice to you. Equity Group does not undertake, any obligation to update these webpages or otherwise notify you in the event that any views, opinions or facts stated on these webpages change or subsequently become inaccurate except to the extent required under any separate agreement between you and Equity Group.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/aos.js"></script> -->
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/swiper.js"></script> -->
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/lightbox.js"></script> -->
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/jClocksGMT.js"></script> -->
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/jquery.rotate.js"></script> -->
+    <script src="static-ca/wp-content/themes/FoundationPress/js/fontawesome/all.js"></script>
+    <!-- <script src="static-ca/wp-content/themes/FoundationPress/js/jclocks.js"></script> -->
+
+
+
+    
+    <style>
+        footer .main-footer {
+            padding-bottom: 3em;
+        }
+    </style>
+
+
+
+    <script type='text/javascript' src='static-ca/wp-includes/js/jquery/ui/core.min%EF%B9%96ver=1.12.1.js'
+        id='jquery-ui-core-js'></script>
+
+
+    <!-- <script type='text/javascript' src='static-ca/js/js-one.js' id='wp-embed-js'></script>
+
+    <script type='text/javascript' src='static-ca/js/js-three.js' id='wp-embed-js'></script> -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+
+
+<script type='text/javascript'src='../../static-ca/js/js-one.js' id='foundation-js'>  </script>
+
+<script type='text/javascript'src='../../static-ca/js/js-three.js' id='foundation-js'>  </script>
+
+
+
+  <!-- loader start  -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        console.log('1937-Checking jquery');
+        $(".loader-logo").addClass("animated fadeOut");
+        $('.preloader').delay(800).fadeOut(800); // set duration in brackets
+    });
+  </script>
+  <!-- loader end  -->
+
+
+</body>
+
 </html>
