@@ -1,3 +1,20 @@
+
+from 
+http://localhost:3001/join-us/index.html
+
+click About link from mobile view.   It breaks. 
+
+Site under construction 
+https://codepen.io/rpsthecoder/pen/zGYXEX
+
+https://stackoverflow.com/questions/16610871/make-an-object-stick-to-the-top-right-side-of-the-page
+
+
+Make the pic light up 
+http://localhost:3001/free-discovery-call/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
