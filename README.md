@@ -1,4 +1,19 @@
 
+replace 
+https://eqdpi.com/
+with 
+/
+
+Make the page  tight , not move left & right 
+https://stackoverflow.com/questions/44667161/page-moving-left-and-right-while-in-mobile-browser
+ html {
+        overflow-x: hidden;
+    }
+
+
+replace: alt="EQDPI"
+
+
 from 
 http://localhost:3001/join-us/index.html
 
@@ -12,6 +27,12 @@ https://stackoverflow.com/questions/16610871/make-an-object-stick-to-the-top-rig
 
 Make the pic light up 
 http://localhost:3001/free-discovery-call/
+
+
+great color: 
+https://www.junipersquare.com/
+rgb(244 240 235 / var(--tw-bg-opacity))
+#f8f8f8
 
 
 

@@ -25,10 +25,15 @@
 
     <link href="../wp-content/themes/FoundationPress/js/jclocks.js" />
 
-    <title>Contact &#8211; Equity Group </title>
+    <title>Non Ex Board Members &#8211; Equity Group </title>
 
 
 <style>
+
+    /* html {
+        overflow-x: hidden;
+    } */
+
     @font-face {
       font-family: eqsans;
       src: url(../../themes/fonts/Nunito/Nunito-Regular.ttf);
@@ -36,6 +41,8 @@
     h1, h2, h3, h4, p, div, li, a  {
       font-family: eqsans;
     }
+
+   
 </style>
 
 
@@ -96,6 +103,14 @@
     }
   </style>
   <!-- loader end -->
+
+
+
+
+  <script src="../static/chart/js/chart/utils.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+
 
 
 </head>
@@ -268,8 +283,8 @@
                                 <div class="cell small-12 medium-12 large-6 hero-content-container">
 
                                     <p data-aos="fade-in" data-aos-delay="200" class="trail" style="color: #ffffff">
-                                        <span class="hr"></span>Contact</p>
-                                    <h1 data-aos="fade-in" data-aos-delay="500" style="color: #ffffff">Send us a message</h1>
+                                        <span class="hr"></span>Board</p>
+                                    <h1 data-aos="fade-in" data-aos-delay="500" style="color: #ffffff"> Non Ex Board Members </h1>
                                     <!-- <a href="" class="button "></a> -->
                                 </div>
                             </div>
@@ -282,34 +297,31 @@
         </div>
 
 
-
         <div class="contact-section small-padding" style="background-color: #f4f4f4; color: ">
             <div class="grid-container">
                 <div class="grid-x grid-margin-x">
                     <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
-                        <p class="trail"><span class="hr"></span>Get in Touch</p>
+                        <p class="trail"><span class="hr"></span>Get in Touch 1</p>
                     </div>
 
-                    <div class="cell small-12 medium-4 large-4 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                    <div class="cell small-12 medium-12 large-12 content" style="margin-bottom: 1em;" data-aos="fade-left"
                         data-aos-delay="200">
                         <div id="TimeGeneralEnquiries"></div>
-                        <h2>General Enquiries</h2>
-                        <div class="address">
-                            <p>Please send us a text </p>
-                            <p>Call: <a href="tel:+1 650-200-3406">+1 650-200-3406</a></p>
-                            <a href="mailto:info@eqdpi.com">email Us</a>
+                        <!-- <h2>General Enquiries</h2> -->
+                        <div style="margin-bottom: 1em; padding-left: 15%;" class="address">
+                            <p>Dear reader, <br>
+                                
+                                Please find the answers to faq on this link:  <a href="/faqal" target="_blank" rel="noopener noreferrer">FAQ</a>  <br>
+
+                                
+
+                                A national law firm is representing us; the chairman lawyer will help us with any legal issue. <br>
+                                
+                                More information will be provided on the phone call. </p>
+                            
                         </div>
                     </div>
-                    <div class="cell small-12 medium-4 large-4 content" style="margin-bottom: 1em;" data-aos="fade-left"
-                        data-aos-delay="200">
-                        <div id="TimeMediaEnquiries"></div>
-                        <h2>Investor Enquiries</h2>
-                        <div class="address">
-                            <p>Please   <a href="https://eqdpi.com/investors/" target="_blank" rel="noopener noreferrer">click here</a>  to learn more about the investment opportunities.  </p>
-                            <p>Call: <a href="tel:+1 650-200-3406">+1 650-200-3406</a></p>
-                            <a href="mailto:info@eqdpi.com">email Us</a>
-                        </div>
-                    </div>
+                   
 
                 </div>
             </div>
@@ -318,6 +330,206 @@
 
 
 
+        <div class="contact-section small-padding" style="background-color: #f4f4f4; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
+                        <p class="trail"><span class="hr"></span>GrowtH</p>
+                    </div>
+
+                    <div class="cell small-12 medium-4 large-4 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2>Growth Trajectory</h2>
+                        <div class="address">
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-8 large-8 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <br/><br/>
+                        <p> Each year, we aim to double the number of home-building projects.</p>
+                        <canvas id="canvas"></canvas>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+
+
+        <div class="contact-section small-padding" style="background-color: #f4f4f4; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
+                        <p class="trail"><span class="hr"></span>Acquisitions</p>
+                    </div>
+
+                    <div class="cell small-12 medium-4 large-4 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2>Construction companies acquisitions</h2>
+                        <div class="address">
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="cell small-12 medium-8 large-8 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <br/><br/>
+                        <br /><br />
+                        <h2 class="h3 text-left margin-bot-50 article-title blue-h blue-h name-bold"> Target number of acquisitions per year
+                        </h2>
+                       
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Year No</th>
+                              <th scope="col">No of acquisitions</th>
+                              <th scope="col">Total Acq </th>
+                
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1st yr</th>
+                              <td>3</td>
+                              <td>3</td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">2nd yr</th>
+                              <td>6</td>
+                              <td>9</td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">3rd yr</th>
+                              <td>6</td>
+                              <td>15</td>
+                              
+                            </tr>
+                          
+                          </tbody>
+                        </table>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                 
+
+
+
+                
+        
+
+        <div class="contact-section small-padding" style="background-color: beige; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
+                        <p class="trail"><span class="hr"></span>Directors</p>
+                    </div>
+
+                    <div class="cell small-12 medium-12 large-12 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2 class="">Director M&A    </h2>
+                        <div class="address">
+                            <p>is a seasoned professional with over 36 years’ experience advising various financial businesses, on merger, acquisition, joint venture and divestiture strategy and execution Transaction sizes ranged in value from under $5 million to over $2 billion on five continents. During that period, led >100 acquisitions and 20 divestitures to completion.
+                                <br> 
+                                His primary focus is on structuring and negotiating transactions. </p>
+                            
+                                <br> <br>    
+                            <p>________ , Transaction Advisory<br> 
+                                Managing Director, Global Corporate Development The Bank of New York Mellon (***** - *****)<br> 
+                                Senior VP, Corporate Development - The Bank Of New York (“BNY”) (----- - -----) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- f4f4f4
+        F3F0EA -->
+        <div class="contact-section small-padding" style="background-color: #F3F0EA; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <!-- <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
+                        <p class="trail"><span class="hr"></span>Directors</p>
+                    </div> -->
+
+                    <div class="cell small-12 medium-12 large-12 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2> Director Legal    </h2>
+                        <div class="address">
+                            <p>is a seasoned professional with over 36 years’ experience advising various financial businesses, on merger, acquisition, joint venture and divestiture strategy and execution Transaction sizes ranged in value from under $5 million to over $2 billion on five continents. During that period, led >100 acquisitions and 20 divestitures to completion.
+                                <br> 
+                                His primary focus is on structuring and negotiating transactions. </p>
+                            
+                                <br> <br>    
+                            <p>________ , Transaction Advisory<br> 
+                                Managing Director, Global Corporate Development The Bank of New York Mellon (***** - *****)<br> 
+                                Senior VP, Corporate Development - The Bank Of New York (“BNY”) (----- - -----) </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-section small-padding" style="background-color: beige; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-12 large-12 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2 class="">Director Industry    </h2>
+                        <div class="address">
+                            <p>is a seasoned professional with over 36 years’ experience advising various financial businesses, on merger, acquisition, joint venture and divestiture strategy and execution Transaction sizes ranged in value from under $5 million to over $2 billion on five continents. During that period, led >100 acquisitions and 20 divestitures to completion.
+                                <br> 
+                                His primary focus is on structuring and negotiating transactions. </p>
+                            
+                                <br> <br>    
+                            <p>________ , Transaction Advisory<br> 
+                                Managing Director, Global Corporate Development The Bank of New York Mellon (***** - *****)<br> 
+                                Senior VP, Corporate Development - The Bank Of New York (“BNY”) (----- - -----) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-section small-padding" style="background-color: F3F0EA; color: ">
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12 medium-12 large-12 content" data-aos="fade-right">
+                        <p class="trail"><span class="hr"></span>Executive Team</p>
+                    </div>
+
+                    <div class="cell small-12 medium-12 large-12 content" style="margin-bottom: 1em;" data-aos="fade-left"
+                        data-aos-delay="200">
+                        <div id="TimeGeneralEnquiries"></div>
+                        <h2 class="">Jay Parteek, Principal    </h2>
+                        <div class="address">
+                            <p>Mr. Jay Parteek has ‘10+’ years of experience in top IT /Software companies in Silicon Valley. <br> He has worked in following companies: Apple Inc, Capital Group, Gap, Walmart Labs, BCG, Diamler ( Mercedes), Novartis, Paycor, Netgear & more.
+                                <br> 
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -538,7 +750,7 @@
             <div class="grid-container white-text">
                 <div class="grid-x grid-margin-x align-middle">
                     <div class="cell large-4 text-left ">
-                        <a href="index.html"><img class="footer-logo" src="../../static/logo/l1.webp"></a>
+                        <a href="/"><img class="footer-logo" src="../../static/logo/l1.webp"></a>
                     </div>
                     <div class="cell large-8 text-right ">
 
@@ -654,6 +866,92 @@
   <!-- loader end  -->
   
   
+
+
+
+  <script>
+    var config = {
+      type: 'line',
+      data: {
+        labels: ['Start', '1st year', '2nd year', '3rd year', '4rth year', '5th year', '6th year'],
+        datasets: [{
+          label: 'Projects per Year',
+          backgroundColor: window.chartColors.blue,
+          borderColor: window.chartColors.blue,
+          data: [4, 16, 32, 64, 128, 256],
+          fill: false,
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          yAxes: [{
+            id: 'B',
+            type: 'linear',
+            position: 'right',
+            ticks: {
+              max: 300,
+              min: 0
+            }
+          }]
+        }
+      }
+      // options: {
+      // 	responsive: true,
+      // 	title: {
+      // 		display: true,
+      // 		text: 'Your practice profit increase'
+      // 	},
+      // 	scales: {
+      // 		y: {
+      // 			// the data minimum used for determining the ticks is Math.min(dataMin, suggestedMin)
+      // 			suggestedMin: 0,
+      // 			position: 'right',
+      // 			// the data maximum used for determining the ticks is Math.max(dataMax, suggestedMax)
+      // 			suggestedMax: 30
+      // 		}
+      // 	}
+      // }
+    };
+
+    //  top right 
+    var config2 = {
+      type: 'line',
+      data: {
+        labels: ['0 year', '1st year', '2nd year', '3rd year', '4rth year', '5th year', '6th year'],
+        datasets: [{
+          label: 'Total Acquisitions in 6 yrs',
+          fill: false,
+          backgroundColor: window.chartColors.orange,
+          borderColor: window.chartColors.orange,
+          data: [0, 7, 19, 37, 55, 74, 98],
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          yAxes: [{
+            id: 'B',
+            type: 'linear',
+            position: 'right',
+            ticks: {
+              max: 120,
+              min: 0
+            }
+          }]
+        }
+      }
+    };
+
+    window.onload = function () {
+      var ctx = document.getElementById('canvas').getContext('2d');
+      window.myLine = new Chart(ctx, config);
+
+      var ctx2 = document.getElementById('canvas2').getContext('2d');
+      window.myLine = new Chart(ctx2, config2);
+
+    };
+  </script>
 
 
 </body>
