@@ -13,6 +13,10 @@ https://stackoverflow.com/questions/44667161/page-moving-left-and-right-while-in
 
 replace: alt="EQDPI"
 
+https://www.vitalgates.com/team/
+A team with 200+ years of experience and a track record of billions of dollars in deal experience
+
+
 
 from 
 http://localhost:3001/join-us/index.html
